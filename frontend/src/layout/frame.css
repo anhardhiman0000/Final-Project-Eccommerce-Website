@@ -1,0 +1,40 @@
+.show_cart{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.cartlaptop1{
+    display: inline-flex;
+    /* border: 2px solid black; */
+    height: 350px;
+    width:25%;
+    float:left;
+    margin-right: 50px;
+    margin-left: 45px;
+    margin-bottom:20px;
+    margin-top:10px;
+    background-color: white;
+    /* 10px,50px,20px,45px */
+}
+
+h3{
+    text-align: center;
+}
+.image{
+    /* margin-left: 120px; */
+    width: 40%;
+}
+p{
+    margin-left: 10px;
+    margin-right: 100px;
+}
+.unactive{
+    /* visibility: hidden; */
+    /* float: right; */
+    /* border:2px solid black; */
+    margin-right: 100px;
+}
+.show_cart:hover .unactive{
+    visibility:visible;
+}
+

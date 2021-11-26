@@ -1,0 +1,49 @@
+.login1{
+    border-style: solid;
+}
+.heading{
+    margin-left: 40px;
+  
+}
+
+h1{
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-left: 20px;
+    border: 2px solid red;
+    background-color: aquamarine;
+    font-weight: bolder;
+    border-radius: 100px;
+    
+}
+#email{
+    width: 25%;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.email1{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+.signin{
+    padding: 2px 158px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(38, 158, 96);
+    border-radius: 20px;
+}
+p{
+    margin-left: 260px;
+    margin-top: 5px;
+}
+a{
+    text-decoration: none;
+}
+.form{
+    margin-left: 100px;
+    margin-top: 100px;
+    border:2px solid rgb(208, 10, 10);
+    width:40%;
+}

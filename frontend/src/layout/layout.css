@@ -1,0 +1,177 @@
+   
+    .head{
+        display: flex;
+         /* align-items: center; */
+        justify-content: space-between;
+        border: 2px hidden rgb(225, 11, 11);
+        height: 80px;
+        background-color: rgb(255, 128, 0);
+        margin-top: 5px;
+        width: 100%;
+    }
+    .head>div{
+        border: 1px hidden black;
+    }
+    .logo{
+        width: 150px;
+        height: 20px;
+        /* padding: 10px 0px 5px 10px; */
+        border:5px solid rgb(249, 0, 0);
+        
+    }
+    .logo>img{
+        border-radius: 10px;
+    }
+    .name{
+        padding: 25px 50px 20px 80px;
+        font-weight: bold;
+        font-family: sans-serif;
+        /* position: fixed; */
+        font-size: 15px;
+        text-align: left;
+        color: rgb(51, 44, 231);
+        margin-left: 10px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .search{
+        width: 150px;
+        margin:32px 0px 20px 50px;
+        position: relative;
+    }
+    .cart{
+        padding: 25px 5px 0px 5px;
+        font-size:40px;
+        color:rgb(255, 55, 0);
+        margin-right: 20px;
+        position: relative;
+    }
+    .login{
+        padding: 25px 5px 0px 5px;
+        font-size:40px;
+        color:rgb(255, 42, 0);
+        margin-right: 50px;
+    }
+    #ser1{
+        padding: 10px 45px 6px 5px;
+        border: 2px solid red;
+        border-radius: 20px;
+    }
+    .search2{
+        margin-right: 80px;
+        margin-bottom: 50px;
+        padding: 35px 1px 12px 25px;
+        font-size: 12px;
+    }
+    .middle{
+        display: flex;
+        border: 2px hidden black;
+        height:345px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    nav{
+        border: 5px solid black;
+        width:20%;
+        background-color: rgb(112, 70, 185);
+    }
+    article{
+        border: 2px hidden black;
+        width: 80%;
+        background-color: rgb(227, 186, 193);
+        overflow: scroll;
+        border: 5px solid black;
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+        border: 2px hidden black;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: justify;
+        background-color: rgb(0, 255, 234);
+    }
+    .home{
+        margin-right: 30px;
+    
+    }
+    .home:hover{
+    color: darkslategrey;
+    font-size: 150%;
+    border: 5px solid rgb(181, 181, 212);
+    border-radius: 15px;
+    background-color: rgb(185, 223, 185);
+    box-shadow: -10px -13px grey;
+    text-shadow: 3px 4px rgb(179, 160, 160);
+    transition: all 0.5s ease 0s;
+    }
+    
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(9, 255, 218);
+        
+
+    }
+    .navigation li{
+        margin: 20px 0px 30px 40px;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        color:rgb(255, 234, 0);
+    }
+    .navigation>a{
+        color:black;
+    }
+    .nav1 a{
+        color: rgb(255, 234, 0);
+    }
+    .nav1 a:hover{
+        color: red;
+         font-size: 150%;    
+        box-shadow: -10px -13px grey;
+         text-shadow: 3px 4px rgb(179, 160, 160);
+         transform: rotate(20deg); 
+        transition: all 0.5s ease 0s;
+    }
+    .footer{
+        border: 5px hidden black;
+        display: flex;
+        background-color: rgb(43, 7, 82);
+        color:white;
+    }
+    .footer1{
+        margin-left:1200px;
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        border: 5px solid black;
+    }
+    .footer_mailus{
+        margin-left: 5px;
+        height: 130px;
+        border: 5px solid black;
+    }
+    .mailus{
+        font-family: sans-serif;
+        font-size: 10px;
+        
+        margin-right: 1100px;
+    }
+    #h3{
+        margin-right: 1200px;
+    }
+    .nav1{
+        margin-right: 500px;
+    }
+    .main{
+        display:flex;
+    }
+    

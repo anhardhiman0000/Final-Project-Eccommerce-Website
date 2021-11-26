@@ -1,0 +1,22 @@
+.a1{
+    background-color: rgb(63, 99, 63);
+    font-size: 20px;
+    padding:0px,50px;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.a2{
+    background-color: rgb(90, 223, 188);
+    border-radius: 10px;
+    font-size: 20px;
+    padding:0px,50px;
+    margin-left:50px;
+    margin-right:50px;
+}
+.p1{
+    padding: 20px;
+}
+.p2{
+    padding:20px;
+}
